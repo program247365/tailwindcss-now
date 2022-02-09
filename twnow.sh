@@ -80,5 +80,5 @@ cat >src/index.html <<EOF
 EOF
 
 ## Watch the files now! Go forth and create awesome UIs!
-echo "${PREAMBLE}Starting the watch process now. Edit your input.css and index.html!"
+echo "${PREAMBLE}Starting the watch process now. Edit index.html and see instant changes in the browser!"
 npm run start
