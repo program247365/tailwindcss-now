@@ -1,4 +1,4 @@
-# 🌈  Tailwind Now Script
+# 🌈  TailwindCSS Now Script
 
 > A little bash script to get you started experimenting with TailwindCSS now!
 
