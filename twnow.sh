@@ -62,7 +62,7 @@ cat >src/index.html <<EOF
         <div class="divide-y divide-gray-300/50">
           <h1 class="text-sky-600 text-xl pb-4"><span class="pr-4">🌈</span>  TailwindCSS Now!</h1>
           <ul class="py-4 text-base leading-7 space-y-2 text-gray-600">
-            <li><span class="pr-4">🕹️</span> A local playground for Tailwind CSS.</li>
+            <li><span class="pr-4">🕹️</span>A local playground for Tailwind CSS.</li>
             <li class="pl-0 pt-4 pr-4 pb-4 p rotate-10 rounded-xl"><span class="pr-4 pl-0">✏️</span>Edit the <code>index.html</code> file to see <span class="animate-pulse bg-yellow-100 p-2">live changes</span>!</li>
             <li><span class="pr-4">🧑‍🎓</span>Perfect for prototyping a new idea, or creating a demo.</li>
           </ul>
