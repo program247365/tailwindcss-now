@@ -32,7 +32,7 @@ EOF
 echo "${PREAMBLE}Installing other packages..."
 npm install -D open-cli live-server &>/dev/null
 
-echo "${PREAMBLE}create our src directory..."
+echo "${PREAMBLE}Create our src directory..."
 mkdir src
 
 ## Create our HTML file
