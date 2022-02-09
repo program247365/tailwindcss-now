@@ -56,19 +56,19 @@ cat >src/index.html <<EOF
 </head>
 <body>
   <div class="min-h-screen bg-gray-50 py-6 flex flex-col justify-center relative overflow-hidden sm:py-12">
-    <div class="absolute inset-0 bg-[url(/img/grid.svg)] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"></div>
+    <div class="absolute inset-0 bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"></div>
     <div class="relative px-6 pt-10 pb-8 bg-white shadow-xl ring-1 ring-gray-900/5 sm:max-w-lg sm:mx-auto sm:rounded-lg sm:px-10">
       <div class="max-w-md mx-auto">
         <div class="divide-y divide-gray-300/50">
-          <h1 class="text-lg">🌈  TailwindCSS Now!</h1>
+          <h1 class="text-lg pb-4">🌈  TailwindCSS Now!</h1>
           <div class="py-8 text-base leading-7 space-y-6 text-gray-600">
             <p>A local playground for Tailwind CSS.</p><p>Edit the <code>index.html</code> file to see live changes!</p>
-            <p>Perfect for learning how the framework works, prototyping a new idea, or creating a demo to share online.</p>
+            <p>Perfect for learning how the framework works, prototyping a new idea, or creating a demo to share.</p>
           </div>
           <div class="pt-8 text-base leading-7 font-semibold">
             <p class="text-gray-900">Want to dig deeper into Tailwind?</p>
             <p>
-              <a href="https://tailwindcss.com/docs" class="text-sky-500 hover:text-sky-600">Read the docs &rarr;</a>
+              <a href="https://tailwindcss.com/docs" target="_blank" rel="noopener" class="text-sky-500 hover:text-sky-600">Read the docs &rarr;</a>
             </p>
           </div>
         </div>
