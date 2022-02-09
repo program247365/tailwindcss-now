@@ -55,16 +55,17 @@ cat >src/index.html <<EOF
   </script>
 </head>
 <body>
-  <div class="min-h-screen bg-gray-50 py-6 flex flex-col justify-center relative overflow-hidden sm:py-12">
+  <div class="min-h-screen bg-gray-50 py-6 flex flex-col justify-center relative overflow-hidden sm:py-12 hover:">
     <div class="absolute inset-0 bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"></div>
     <div class="relative px-6 pt-10 pb-8 bg-white shadow-xl ring-1 ring-gray-900/5 sm:max-w-lg sm:mx-auto sm:rounded-lg sm:px-10">
       <div class="max-w-md mx-auto">
         <div class="divide-y divide-gray-300/50">
-          <h1 class="text-lg pb-4">🌈  TailwindCSS Now!</h1>
-          <div class="py-8 text-base leading-7 space-y-6 text-gray-600">
-            <p>A local playground for Tailwind CSS.</p><p>Edit the <code>index.html</code> file to see live changes!</p>
-            <p>Perfect for learning how the framework works, prototyping a new idea, or creating a demo to share.</p>
-          </div>
+          <h1 class="text-sky-600 text-xl pb-4"><span class="pr-4">🌈</span>  TailwindCSS Now!</h1>
+          <ul class="py-4 text-base leading-7 space-y-2 text-gray-600">
+            <li><span class="pr-4">🕹️</span> A local playground for Tailwind CSS.</li>
+            <li class="pl-0 pt-4 pr-4 pb-4 p rotate-10 rounded-xl"><span class="pr-4 pl-0">✏️</span>Edit the <code>index.html</code> file to see <span class="animate-pulse bg-yellow-100 p-2">live changes</span>!</li>
+            <li><span class="pr-4">🧑‍🎓</span>Perfect for prototyping a new idea, or creating a demo.</li>
+          </ul>
           <div class="pt-8 text-base leading-7 font-semibold">
             <p class="text-gray-900">Want to dig deeper into Tailwind?</p>
             <p>
