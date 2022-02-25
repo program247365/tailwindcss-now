@@ -1,6 +1,6 @@
-# 🌈  TailwindCSS Now Script
+# 🌈  TailwindCSS Now
 
-> A little bash script to get you started experimenting with TailwindCSS now!
+> A bash script that gets you developing in TailwindCSS in under eight seconds!
 
 ![CLI Output](./screenshots/cli-output.png "CLI Output")
 
