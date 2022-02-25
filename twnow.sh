@@ -45,7 +45,7 @@ cat >src/index.html <<EOF
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="//tailwindcss.com/favicons/apple-touch-icon.png?v=3"/>
   <!-- Enable core plugins, like forms and typography, using the plugins query parameter. -->
-  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  <script src="//cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
   <script>
     tailwind.config = {
       /*
@@ -60,14 +60,6 @@ cat >src/index.html <<EOF
     */
     }
   </script>
-  <style type="text/tailwindcss">
-    // Add custom CSS that supports all of Tailwind's CSS Features
-    // @layer utilities {
-    //  .content-auto {
-    //    content-visibility: auto;
-    //  }
-    // }
-  </style>
 </head>
 <body>
   <div class="min-h-screen bg-gray-50 flex flex-col justify-center relative overflow-hidden">
