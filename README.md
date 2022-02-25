@@ -8,8 +8,14 @@
 
 ## Getting Started
 
-1. Run `./twnow.sh`
-2. Edit your `src/index.html` to see instant changes!
+### One Liner!
+
+`bash <(curl -s https://raw.githubusercontent.com/program247365/tailwindcss-now/main/twnow.sh)`
+
+### Clone Locally
+1. `git clone https://github.com/program247365/tailwindcss-now.git`
+2. Run `cd tailwdincss-now && ./twnow.sh`
+3. Edit your `src/index.html` to see instant changes!
 
 ## How It Works
 
