@@ -43,7 +43,8 @@ cat >src/index.html <<EOF
   <title>TailwindCSS Now Playground!</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="//tailwindcss.com/favicons/apple-touch-icon.png?v=3"/>
+  <script src="//cdn.tailwindcss.com"></script>
   <script>
     module.exports = {
         content: ["./src/**/*.{html,js}"],
