@@ -93,7 +93,7 @@ cat >src/index.html <<EOF
 EOF
 
 # Open the user's editor
-$EDITOR "$proj_dir/index.html" >/dev/null 2>&1 &
+# $EDITOR "$proj_dir/index.html" >/dev/null 2>&1 &
 
 ## Watch the files now! Go forth and create awesome UIs!
 echo "${PREAMBLE}Starting the watch process now. Edit index.html and see instant changes in the browser!"
