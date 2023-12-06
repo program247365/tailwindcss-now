@@ -2,6 +2,10 @@
 
 PREAMBLE='🌈 TailwindCSS NOW Script:  '
 
+now=$(date +'%Y%m%d')
+proj_dir="$now-tailwindcssnow"
+mkdir $proj_dir && cd $proj_dir
+
 ## Init a project
 echo "${PREAMBLE}Initializing NPM project..."
 npm init -y > /dev/null
